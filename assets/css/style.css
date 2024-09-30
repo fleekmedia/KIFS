@@ -2825,7 +2825,7 @@ a.text-brand-3:hover {
 
 .box-newsletter {
   padding: 90px 0px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   background: #0E224D url(../imgs/template/bg-newsletter.svg) no-repeat right 10px bottom 10px;
 }
 .box-newsletter .box-form-newsletter {
@@ -9815,9 +9815,9 @@ a:hover span {
   .card-grid-style-4 .card-grid-inner .image-box {
     width: 40%;
   }
-  .banner-homepage3 {
+  /* .banner-homepage3 {
     padding-left: 35px;
-  }
+  } */
   .display-list .card-grid-style-3 .card-grid-inner .image-box {
     min-width: 210px;
     max-width: 210px;
