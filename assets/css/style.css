@@ -385,7 +385,7 @@ body {
 
 .font-lg-bold {
   font-family: "DM Sans", sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 28px;
   font-weight: bold;
 }
@@ -992,6 +992,9 @@ h6 {
 .color-gray-1000 {
   color: #116599;
 }
+.color-white-1000 {
+  color: white !important;
+}
 
 .color-gray-1100 {
   color: #253D4E;
@@ -1177,6 +1180,9 @@ a.text-brand-3:hover {
   background-color:#116599;
   color: #ffffff;
   font-weight: bold;
+}
+.border-white{
+  border: 1px solid white !important;
 }
 .btn.btn-brand-2:hover {
   background-color: #116599;
@@ -3116,7 +3122,7 @@ a.text-brand-3:hover {
   display: inline-block;
   width: 100%;
   height: 670px;
-  background: url(../imgs/slider/swiper/single-3.png) no-repeat 0px 0px;
+  background: url(../imgs/slider/swiper/shop-side-images.svg) no-repeat 0px 0px;
   background-size: cover;
   padding: 50px 10px;
 }
@@ -6593,7 +6599,7 @@ a.text-brand-3:hover {
 .block-electric {
   background-image: url(../imgs/template/tv.svg);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: 124px bottom;
   background-size: 50% auto;
   padding-bottom: 40px;
   min-height: 240px;
@@ -6632,31 +6638,31 @@ a.text-brand-3:hover {
 }
 
 .banner-ads {
-  background: url(../imgs/slider/swiper/sec-bg-2.svg) no-repeat 0px 0px;
+  background: url(../imgs/slider/swiper/flower.svg) no-repeat 0px 0px;
   background-size: cover;
-  padding: 50px 10px;
+  padding: 25px 10px;
   position: relative;
 }
-.banner-ads::before {
+/* .banner-ads::before {
   content: "";
   position: absolute;
   bottom: 0px;
   left: 0px;
   height: 100%;
   width: 400px;
-  /* background: url(../imgs/slider/swiper/side-1.svg) no-repeat bottom right; */
+  background: url(../imgs/slider/swiper/side-1.svg) no-repeat bottom right;
   background-size: contain;
-}
-.banner-ads::after {
+} */
+/* .banner-ads::after {
   content: "";
   position: absolute;
   bottom: 0px;
   right: 0px;
   height: 100%;
   width: 350px;
-  /* background: url(../imgs/page/homepage3/bg-right-ads.png) no-repeat bottom left; */
+  background: url(../imgs/page/homepage3/bg-right-ads.png) no-repeat bottom left;
   background-size: contain;
-}
+} */
 
 .card-ads-1 .card-grid-inner {
   background: url(../imgs/page/homepage3/bg-kitchen.png) no-repeat 0px 0px;
@@ -6713,12 +6719,14 @@ a.text-brand-3:hover {
 }
 
 .block-ads-1 {
-  background: url(../imgs/page/homepage3/bg-ads-2.png) no-repeat 0px 0px;
+  background: url('../imgs/page/homepage3/side-images-12.svg') no-repeat 0px 0px;
+  background-size: 100% 100%;
   padding: 50px 40px;
 }
 
 .block-ads-2 {
-  background: url(../imgs/page/homepage3/bg-ads-3.png) no-repeat 0px 0px;
+  background: url('../imgs/page/homepage3/side-images-1.svg') no-repeat 0px 0px;
+  background-size: 100% 100%;
   padding: 50px 40px;
 }
 
